@@ -1,8 +1,8 @@
 # dsa_practice
-Welcome to my <h3>Data Structures & Algorithms (DSA) practice</h3> repository!
+Welcome to my <b>Data Structures & Algorithms (DSA) practice</b> repository!
 This repo contains my solutions to various DSA problems that I solve regularly to improve my problem-solving skills and prepare for technical interviews.<br>
 
-About :-
+About :-<br>
 -> Practicing DSA concepts regularly<br>
 
 -> Implementing solutions in C++ / Python<br>
@@ -16,5 +16,5 @@ C++<br>
 
 Python<br>
 
-Contributions<br>
+Contributions :-<br>
 This is a personal learning repository, but suggestions and improvements are always welcome!
