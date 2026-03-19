@@ -1,7 +1,7 @@
 /*
 Problem: Drinks (Orange Juice)
 Platform: Codeforces
-Difficulty: Easy
+Difficulty: Medium
 Concept: Average
 */
 
