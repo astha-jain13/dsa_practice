@@ -1,3 +1,12 @@
+/*
+Problem: Next Round
+Platform: CodeForces
+Difficulty: Easy
+Concept: Visit every element
+Time Complexity: O(n)
+*/
+
+
 #include <iostream>
 using namespace std;
 
