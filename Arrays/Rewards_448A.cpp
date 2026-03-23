@@ -12,15 +12,15 @@ int main()
 {
     int a1,a2,a3,b1,b2,b3,cups, medals, shelf,cup_shelves,medal_shelves;
     
-    //Enter the number of cups
+    //Take the number of cups as input
     cin>>a1>>a2>>a3;
     cups = a1+a2+a3;
     
-    //Enter the number of medals
+    //Take the number of medals as input
     cin>>b1>>b2>>b3;
     medals = b1+b2+b3;
     
-    //Enter the number of shelves
+    //Take the number of shelves as input
     cin>>shelf;
     
     //Shelf required to store cups
