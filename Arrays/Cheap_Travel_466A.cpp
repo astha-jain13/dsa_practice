@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int n,m,a,b,x,z,single_ticket,special_ticket;
+    int n,m,a,b,x,z,single_ticket,special_ticket_1,special_ticket_2,special_ticket;
     
     //Take input of number of rides,rides per special ticket,cost of single ride,cost of special ticket 
     cin>>n>>m>>a>>b;
@@ -15,7 +15,15 @@ int main()
     x=(n/m)*b;
     if(n%m != 0){
         z=n%m;
-        special_ticket=x+z*a;
+        //Special ticket + single ticket combo
+        special_ticket_1=x+z*a;
+        //Special ticket only
+        special_ticket_2=x+b;
+        if(special_ticket_1<=special_ticket_2){
+            special_ticket=special_ticket_1;
+        }else{
+            special_ticket=special_ticket_2;
+        }
     }
     else{
         special_ticket=x;
