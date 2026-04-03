@@ -1,3 +1,10 @@
+/*
+Problem: Team Olympiad
+Platform: CodeForces
+Difficulty: Easy
+Concept: Counting, Grouping indices
+*/
+
 #include <iostream>
 using namespace std;
 
