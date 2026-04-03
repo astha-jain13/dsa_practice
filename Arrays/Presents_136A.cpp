@@ -1,3 +1,10 @@
+/*
+Problem: Presents
+Platform: CodeForces
+Difficulty: Medium
+Concept: Index mapping, Array
+*/
+
 #include <iostream>
 using namespace std;
 
