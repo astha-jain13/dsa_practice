@@ -1,3 +1,10 @@
+/*
+Problem: Cheap Travel
+Platform: CodeForces
+Difficulty: Easy
+Concept: Greedy, Minimum cost comparison
+*/
+
 #include <iostream>
 using namespace std;
 
