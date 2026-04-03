@@ -1,3 +1,10 @@
+/*
+Problem: Is your horseshoe on the other hoof?
+Platform: CodeForces
+Difficulty: Easy
+Concept: Set, Counting unique elements
+*/
+
 #include <iostream>
 #include <set>
 using namespace std;
