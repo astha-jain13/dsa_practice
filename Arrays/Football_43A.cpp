@@ -1,4 +1,10 @@
-
+/*
+Problem: Football Championship
+Platform: CodeForces
+Difficulty: Easy
+Concept: Count frequency of strings
+Time Complexity: O(n)
+*/
 
 
 #include <iostream>
