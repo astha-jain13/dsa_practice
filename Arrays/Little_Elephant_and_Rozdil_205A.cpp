@@ -7,12 +7,11 @@ Time Complexity: O(n)
 */
 
 #include <iostream>
-#include <set>
 using namespace std;
 
 int main()
 {
-    int n,index=0;
+    int n,index=0,count=0;
     cin>>n;
     
     int arr[n];
@@ -30,13 +29,17 @@ int main()
         }
     }
     for(int i=0;i<n;i++){
-        //Check if minimum time is repeated then print "Still Rozdil" else the city number to travel
+        //Check if minimum time is repeated
         if(arr[i]==min){
-            cout<<"Still Rozdil";
-            break;
+            count++;
         }
-        else{
-            cout<<index;
-        }
+    }
+    //If not repeated print the city number
+    if(count==1){
+        cout<<index+1;
+    }
+    //If repeated print "Still Rozdil"
+    else{
+        cout<<"Still Rozdil";
     }
 }
